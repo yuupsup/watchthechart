@@ -8,13 +8,10 @@ const rubik = Rubik({
 });
 
 export default function NavBar(props) {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [eventsActive, setEventsActive] = useState(false);
-
   return (
     <nav className={styles.navbar}>
       <div className={`${styles.container}`}>
-        <a href="/" className={styles.logo}>
+        <a href="#" className={styles.logo}>
           <img src="/logo-circle.svg" alt="Watch the Chart Logo"/>
         </a>
         <div className={`${styles.nav_links} ${rubik.className}`}>
