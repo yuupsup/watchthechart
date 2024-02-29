@@ -40,6 +40,7 @@
   color: white;
   /*width: 718px;*/
   font-size: 30px;
+  max-width: 678px;
 }
 
 .charts {
@@ -103,7 +104,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 930px) {
   .section_container {
     margin: 0 50px;
   }
