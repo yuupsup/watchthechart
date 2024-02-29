@@ -27,30 +27,7 @@ a {
 }
 
 body {
-  background: linear-gradient(
-    45deg,
-    hsl(0, 0%, 0%) 10%,
-    hsl(245, 80%, 50%),
-    hsl(287, 80%, 50%),
-    hsl(245, 80%, 50%),
-    hsl(0, 0%, 0%)
-  );
-  background-size: 2000vw 100vh;
-  animation: animate-bg-size 30s ease infinite;
-}
-
-@keyframes animate-bg-size {
-  0% {
-    background-size: 100vw 100vh;
-  }
-
-  50% {
-    background-size: 100vw 2000vh;
-  }
-
-  100% {
-    background-size: 100vw 100vh;
-  }
+  background: #010101;
 }
 
 img {
