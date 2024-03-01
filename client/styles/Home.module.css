@@ -41,7 +41,7 @@
   max-width: 678px;
 }
 
-.infos p {
+.infos .ca {
   overflow-wrap: break-word;
 }
 
@@ -146,5 +146,9 @@
 
   .infos p {
     font-size: 18px;
+  }
+
+  .infos .ca {
+    max-width: 240px;
   }
 }
